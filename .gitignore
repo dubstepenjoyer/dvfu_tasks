@@ -1,8 +1,10 @@
 
 
 *.tar.gz
-
+*.zip
+*.parquet
 
 history/
 history_tiny_image_net/
 cifar-10-batches-py/
+bart-base/
