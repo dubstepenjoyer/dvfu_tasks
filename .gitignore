@@ -3,8 +3,12 @@
 *.tar.gz
 *.zip
 *.parquet
+*.npy
+*.json
+
 
 history/
 history_tiny_image_net/
 cifar-10-batches-py/
 bart-base/
+tokenize_seq
