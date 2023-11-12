@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  cv:
+    image: tverous/pytorch-notebook:latest
+    container_name: cv_module
+    ulimits:
+      memlock: -1
+    ports:
+      - 8888:8888
+    environment:
+    - JUPYTER_TOKEN=passwd
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

@@ -5,6 +5,7 @@
 *.parquet
 *.npy
 *.json
+*.jpg
 
 
 history/
@@ -12,3 +13,4 @@ history_tiny_image_net/
 cifar-10-batches-py/
 bart-base/
 tokenize_seq
+cats_and_dogs
